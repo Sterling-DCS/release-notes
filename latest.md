@@ -1,220 +1,31 @@
+[core]
+* Release to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/core/pull/321
+  
+* Release to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/core/pull/325
+ 
+* Create build&deploy.manual.yml by @gopalsterling-dcs in https://github.com/Sterling-DCS/core/pull/332
+  
+* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/core/pull/333
+
 [frontend]
-
-* Promote to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/frontend/pull/1365
+* [STERDEV-1235] toolbars refactoring standardising by @korobkoalex in https://github.com/Sterling-DCS/frontend/pull/1290
   
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/frontend/pull/1367
+* [STERDEV-1050] Snapshot preview Details Panel fixes by @korobkoalex in https://github.com/Sterling-DCS/frontend/pull/1334
   
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/frontend/pull/1370
-
+* [STERDEV-1228] cost items assign to structure performance by @AtincErg in https://github.com/Sterling-DCS/frontend/pull/1335
   
-[takeoff]
-
-* Update pipeline.yml by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/2
-
-* Update GitVersion.yml by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/3
-
-* Updated pipelines by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/4
-
-* Added QA pipeline by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/5
-
-* Update build&deploy.yml by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/6
-
-* Update GitVersion.yml by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/7
-
-* Promote main to QA by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/8
-
-* Promote QA to Staging by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/9
-
-* Fixed pipelines by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/10
-
-* Promote main to QA by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/11
-
-* Promote QA to Staging by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/12
-
-* Updated Hoops Communicator by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/13
-
-* Update Dockerfile by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/14
-
-* Feature/revert hoops converter by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/15
-
-* Promote main to QA by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/16
-
-* Promote QA to Staging by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/17
-
-* Feature/update hoops converter by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/24
-
-* Added .github/CODEOWNERS by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/27
-
-* STERDEV-85 Corrected attribute names which match the type name as per… by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/26
-
-* STERDEV-85 Moving to QA by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/28
-
-* STERDEV-92 Added ModelId to imported takeoff item by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/29
-
-* Update build&deploy.yml by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/30
-
-* STERDEV-49 - Adding support for 2D file formats (DWG, DWF, DXF, DGN) by @Vivek-PrototechSoutions in https://github.com/Sterling-DCS/takeoff/pull/31
-
-* STERDEV-49 Added CAD Module and corrected reference paths by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/32
-
-* STERDEV-49 Added Linux CAD module, used appsettings by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/34
-
-* Promote to QA by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/35
-
-* Promote to QA by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/36
-
-* Promote to QA by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/37
-
-* Promote to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/38
-
-* Promote to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/40
-
-* Promote to stage by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/41
-
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/takeoff/pull/42
-
-* 🔧 Fixed Dockerfile by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/43
-
-* Promote to QA by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/44
-
-* Promote to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/45
-
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/takeoff/pull/46
-
-* fix: 2D take-off now supports Dwg, Dwf, Dxf, and Dgn file types [STERDEV-639] by @sterlingdcs-ahmet in https://github.com/Sterling-DCS/takeoff/pull/47
-
-* Promote to QA by @sterlingdcs-ahmet in https://github.com/Sterling-DCS/takeoff/pull/48
-
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/takeoff/pull/49
-
-* fix: .rvt model files can now be used to create take-off items [STERDEV-664] by @sterlingdcs-ahmet in https://github.com/Sterling-DCS/takeoff/pull/50
-
-* Promote to QA by @sterlingdcs-ahmet in https://github.com/Sterling-DCS/takeoff/pull/51
-
-* Promote to Staging by @sterlingdcs-ahmet in https://github.com/Sterling-DCS/takeoff/pull/52
-
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/takeoff/pull/53
-
-* Hoops communicator updated, model-processor is now optional [STERDEV-709] by @sterlingdcs-ahmet in https://github.com/Sterling-DCS/takeoff/pull/54
-
-* Promote to QA by @sterlingdcs-ahmet in https://github.com/Sterling-DCS/takeoff/pull/55
-
-* Qa > Staging by @stevemartin-sdcs in https://github.com/Sterling-DCS/takeoff/pull/56
-
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/takeoff/pull/58
-
-* [STERDEV-1040] - updating takeoff endpoints to implement toi structure by @izzetertas in https://github.com/Sterling-DCS/takeoff/pull/59
-
-* [STERDEV-1040] - adding userId and StructureId to takeoff ws notifications by @izzetertas in https://github.com/Sterling-DCS/takeoff/pull/60
-
-* Merge to qa by @sterlingdcs-damian in https://github.com/Sterling-DCS/takeoff/pull/61
-
-* Promote to Staging by @sterlingdcs-ahmet in https://github.com/Sterling-DCS/takeoff/pull/62
-
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/takeoff/pull/63
-
-* [STERDEV-1056]-2D Measurements Grid updates  by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/64
-
-* Promote to QA by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/65
-
-* removes Seq and Graylog sinks by @stevemartin-sdcs in https://github.com/Sterling-DCS/takeoff/pull/66
-
-* DEVOPS - Updated Workflows by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/67
-
-* Promote to QA by @sterlingdcs-rbullers in https://github.com/Sterling-DCS/takeoff/pull/68
-
-* Promote to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/70
-
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/takeoff/pull/71
-
-* [STERDEV-1056] -  Fixing Payload signature by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/72
-
-* Promote to QA by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/73
-
-* [STERDEV-1056]-Adding Calculated fields to measurements by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/74
-
-* Promote to QA by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/75
-
-* Qa by @sterlingdcs-ada in https://github.com/Sterling-DCS/takeoff/pull/76
-
-* [STERDEV-1138]-BE - Allow string values starting with '=' by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/77
-
-* Feature/sterdev 1138 fixing unit test by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/78
-
-* main to QA 25th Nov 24 by @stevemartin-sdcs in https://github.com/Sterling-DCS/takeoff/pull/79
-
-* Qa -> Staging 3rd Dec 2024 by @stevemartin-sdcs in https://github.com/Sterling-DCS/takeoff/pull/81
-
-* [STERDEV-1164]-3D Objects Grid enhancements - BE work by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/80
-
-* [STERDEV-1140]-Fixing Group Issue by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/82
-
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/takeoff/pull/83
-
-* [STERDEV-1164]-Adding Id fields to bim-elements get end points by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/84
-
-* main to QA by @sterlingdcs-ada in https://github.com/Sterling-DCS/takeoff/pull/85
-
-* [STERDEV-1184]-3D Take-off - Show/hide Assigned and Unassigned by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/86
-
-* [STERDEV-1184]- fixing get issues by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/87
-
-* [STERDEV-1184]-removing get method name by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/88
-
-* Promote to QA by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/89
-
-* [STERDEV-1184]-adding IsVisible field by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/90
-
-* [STERDEV-1184]-adding log by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/91
-
-* [STERDEV-1184]-fixing end if condition by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/92
-
-* Promote to QA by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/93
-
-* [STERDEV-1238]-Fixing Issue 2D creating TOI from a group by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/94
-
-* Promote to QA by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/95
-
-* [STERDEV-1249]-Adding new end point to get take off elements by @sterlingdcs-ertugrul in https://github.com/Sterling-DCS/takeoff/pull/96
-
-* Promote to QA by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/97
-
-* Release to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/99
-
-* Revert "Release to staging" by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/100
-
-* Release to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/101
-
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/takeoff/pull/102
-
-* Release to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/103
-
-* Revert "Release to staging" by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/104
-
-* Release to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/105
-
-* Promote to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/106
-
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/takeoff/pull/110
-
-* Promote to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/takeoff/pull/116
-
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/takeoff/pull/117
-
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/takeoff/pull/118
-
-
-
-## New Contributors
-
-* @Vivek-PrototechSoutions made their first contribution in https://github.com/Sterling-DCS/takeoff/pull/31
-
-* @sterlingdcs-ahmet made their first contribution in https://github.com/Sterling-DCS/takeoff/pull/47
-
-* @stevemartin-sdcs made their first contribution in https://github.com/Sterling-DCS/takeoff/pull/56
-
-* @izzetertas made their first contribution in https://github.com/Sterling-DCS/takeoff/pull/59
-
-* @sterlingdcs-damian made their first contribution in https://github.com/Sterling-DCS/takeoff/pull/61
-
-* @sterlingdcs-ada made their first contribution in https://github.com/Sterling-DCS/takeoff/pull/76
+* [STERDEV-1046] Complex resources library DP fixes by @korobkoalex in https://github.com/Sterling-DCS/frontend/pull/1337
+  
+* [STERDEV-1277] Changed column heading CP DP by @korobkoalex in https://github.com/Sterling-DCS/frontend/pull/1338
+  
+* [STERDEV-1049] Cost Items Library Details Panel fixes by @korobkoalex in https://github.com/Sterling-DCS/frontend/pull/1336
+  
+* STERDEV-1054-TO-V2-3d-remove-columns by @sterlingdcs-ada in https://github.com/Sterling-DCS/frontend/pull/1339
+  
+* [STERDEV-1283] integrate boq by resources mk2 api handler by @stevemartin-sdcs in https://github.com/Sterling-DCS/frontend/pull/1342
+  
+* [STERDEV-1280] CP wrapping text button fix by @korobkoalex in https://github.com/Sterling-DCS/frontend/pull/1345
+  
+* Release to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/frontend/pull/1381
+  
+* Release to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/frontend/pull/1388
