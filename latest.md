@@ -1,6 +1,10 @@
 
-[frontend]
+[test-repo]
 
-* Promote to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/frontend/pull/1469
+* Add login page (#1)
 
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/frontend/pull/1471
+
+
+## Bug Fixes 🛠
+
+* Fix validation bug (#2)
