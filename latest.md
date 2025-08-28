@@ -1,6 +1,12 @@
 
-[frontend]
+[test-repo]
 
-* Promote to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/frontend/pull/1469
+* [STERDEV-1236] Added settings page (#16)
 
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/frontend/pull/1471
+* [STERDEV-1234] Add help page (#14)
+
+
+
+## Bug Fixes 🛠
+
+* [STERDEV-1235] Fixed login page (#15)
