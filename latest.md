@@ -1,6 +1,26 @@
 
+[test-repo]
+
+* [STERDEV-1236] Added settings page (#16)
+
+* [STERDEV-1234] Add help page (#14)
+
+
+
+## Bug Fixes 🛠
+
+* [STERDEV-1235] Fixed login page (#15)
+
 [frontend]
 
-* Promote to staging by @gopalsterling-dcs in https://github.com/Sterling-DCS/frontend/pull/1469
+* Cherry-pick: qa-to-staging-cherry-pick → staging by @sterlingdcs-devops in https://github.com/Sterling-DCS/frontend/pull/1485
 
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/frontend/pull/1471
+* Cherry-pick: cherry/qa-to-staging → staging by @sterlingdcs-devops in https://github.com/Sterling-DCS/frontend/pull/1498
+
+* STERTDEV-1437: refactor complex resources to restore data display by @gopalsterling-dcs in https://github.com/Sterling-DCS/frontend/pull/1500
+
+* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/frontend/pull/1501
+
+[frontend-api]
+
+* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/frontend-api/pull/130
