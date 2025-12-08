@@ -1,6 +1,6 @@
 
 [frontend]
 
-[core]
+* [STERDEV-1560] Enable toolbar in QuotesComparisonGrid component (#1591)
 
-* Merge Staging into Production by @sterlingdcs-devops in https://github.com/Sterling-DCS/core/pull/430
+* [STERDEV-1559] Enable toolbar display in CostItemTemplatesMUGrid (#1590)
