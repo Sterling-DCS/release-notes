@@ -1,6 +1,9 @@
 
+
 [frontend]
 
-* [STERDEV-1560] Enable toolbar in QuotesComparisonGrid component (#1591)
+* [STERDEV-1561] Fixed toolbars, skipped empty ids (#1596)
 
-* [STERDEV-1559] Enable toolbar display in CostItemTemplatesMUGrid (#1590)
+[takeoff]
+
+* [STERDEV-1562] Install additional dependencies in Dockerfile for PDF processing (#181)
