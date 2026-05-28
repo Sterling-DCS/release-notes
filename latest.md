@@ -1,75 +1,72 @@
 
 [core]
 
-  #### New Features 🎉
-* [STERDEV-1614] Filtering data sent over signalr to be just the updated/inserted costitems (#504)
-* [STERDEV-1653] Refactor BillOfQuantityCalculationService for parallel processing (#502)
-* [STERDEV-1613] Compute structure path on the fly (#499)
-* [STERDEV-1283] RMv2 add group by family type (#494)
-* [STERDEV-1584] bottom line totals fix structures recalc (#490)
-* [STERDEV-1584] RMv2 bottom line totals (#482)
-* [STERDEV-1581] Removed conversion to tons for co2 fields (#485)
-* [STERDEV-1172] bulk update resources for RMv2 (#474)
-* [STERDEV-1370]-Adding lifecycle to copying project (#475)
-* [STERDEV-1523] filter toggle zero priced bid items (#467)
-* [STERDEV-1515] the filter logic for RMv2 (#454)
+* [STERDEV-1793] TO - Archive TOI process - show user where a TOI is assigned in Cost Plan (#559)
 
-#### Bug Fixes 🛠
+* [STERDEV-1796]  Correct hangfire dashboard configuration & make it accessible to SYSTEM user role (#556)
+
+* [STERDEV-1722] [FE] Add Archive filter and Archive/Unarchive button to "Add from Take-off List" panel (#542)
+
+* [STERDEV-1796]  Correct hangfire dashboard configuration & make it accessible to SYSTEM user role (#556)
+
+* [STERDEV-1722] [FE] Add Archive filter and Archive/Unarchive button to "Add from Take-off List" panel (#542)
+
+* STERDEV-1336 Ability to Archive TOI (Take-off Item) (#539)
+
+* [STERDEV-1690] Adding-company details to get portfolio API (#536)
+
+
+
+## Bug Fixes 🛠
+
+* [STERDEV-1646] Upsert costItem uom with null (#549)
+
+* [STERDEV-1791] Skip portfoliodocumentlibrary unique key constraint failure if document already exsist (#547)
+
 * [STERDEV-1699] Quote complex resources components endpoint (#541)
+
 * [STERDEV-1738] Added subcontractor portfolio Id (#537)
-* [STERDEV-1686] Fixed function definition to work with spaces in structure name (#531)
-* [STERDEV-1686] Filtered Sub-contractor structures (#526)
-* [STERDEV-1686] Fixed core migration isuses, GetProjectTagsByFamilies for quotes (#523)
-* [STERDEV-1685] Set CreateProjectTakeoffsProposal job priority to critical and reports to low (#521)
-* [STERDEV-1685] Return all cost items if its a proposal (#519)
-* [STERDEV-1687] Fixed CI delete workflow (#518)
-* [STERDEV-1673] Resetting costitem quantity if all takeoff items (actuals & placeholders) are deleted (#515)
-* [STERDEV-1673] If measurement is default use TakeoffItemQuantity (#510)
-* [STERDEV-1621] map CI title to RMv2 endpoints (#507)
-* [STERDEV-1613] Move unitData population logic to postgre function (#500)
-* [STERDEV-1524] Should_Display_All_Unwrapped_CR_Components_With_Unassigned_Filter (#491)
-* [STERDEV-1581] Always override EPD data, no default integration type (#480)
-* [STERDEV-1524] unassigned bucket (synthetic Unassigned Node) (#491)
-* [STERDEV-1354] Making sure latest model id is available in project entity Takeoffs (#465)
-* [STERDEV-1354]  Set ModelId when Updating a TakeoffItem (#460)
-* [STERDEV-602]  Synchronised CI library complex resources (#459)
-
-[frontend]
-
-#### New Features 🎉
-* [STERDEV-1450] Cost Plan Cost Carbon Both view settings (#1757)
-
-#### Bug Fixes 🛠
-* [STERDEV-1557] 2d measurements grid category column not saving data (#1753)
-* [STERDEV-1748] Finalisation side grid sizing fixes (#1763)
-* [STERDEV-1543] Fix forecasting search box and missing plus icon  (#1758)
-* [STERDEV-1733] Fixed revision upload issue (#1754)
-* [STERDEV-1543] Toolbar Search component fixes Takeoff tile view Forecasting Programme (#1748)
-* [STERDEV-1744] fixes on BP add from library modal (#1747)
-* [STERDEV-1745] Fix package library grid columns (#1745)
-* [STERDEV-1731] Fixed 3d viewer undocked view (#1742)
-* [STERDEV-1736] Fix for BP grid expand/collaps issue (#1741)
 
 [identity]
 
-#### New Features 🎉
-* [STERDEV-1664] Corrected EULA flow; Added support user to be part of multiple portfolio (#128)
-* [STERDEV-30] Bulk User Import (#119)
-* [STERDEV-1546] User transfer between portfolios (#118)
+* [STERDEV-1836] Register MCP API Resource via env (#143)
 
-#### Bug Fixes 🛠
-* [STERDEV-1738] Added subcontractor portfolioId to fix creation issue (#139)
-* [STERDEV-1664] Skipping portfolio selection for the SYSTEM user; rolling back data in case we decide to revert the feature. (#137)
-* [STERDEV-1691] Fix broken workflow refs (#133)
-* [STERDEV-1548] Change phoneNumber type to google.protobuf.StringValue (#124)
+[mailing]
 
-
-[model-converter]
-
-#### New Features 🎉
-* [STERDEV-1611] Upgrade Dockerfile to use TechSoft 3D version 2026.1.0 for Revit 2026 support
+* [STERDEV-1236] Remove unnecessary content from user invitation mail (#69)
 
 [takeoff]
 
-#### Bug Fixes 🛠
-* [STERDEV-1557] 2D Measurements Grid Category Column not saving data (#210)
+* [STERDEV-1797] Correct hangfire dashboard configuration & make it accessible to SYSTEM user role (#227)
+
+* [STERDEV-1797] Correct hangfire dashboard configuration & make it accessible to SYSTEM user role (#227)
+
+* STERDEV-1737 feat: implement batch takeoff processing infrastructure, including tree building, unit management, and background job scheduling. (#216)
+
+* [STERDEV-1619] [BE] Bulk upsert & bulk deactivate drawing-elements/annotation APIs (#221)
+
+* [STERDEV-1722] [FE] Add Archive filter and Archive/Unarchive button to "Add from Take-off List" panel (#215)
+
+* STERDEV-1336 Ability to Archive TOI (Take-off Item) (#212)
+
+* [STERDEV-1570] feat: Multi-level drag-and-drop aggregation and performance optimization (#206)
+
+
+
+## Bug Fixes 🛠
+
+* [STERDEV-1737] fix: exclude IFC from internal preprocessing pipeline (#234)
+
+* [STERDEV-1786] Fixed bugs (#224)
+
+* [STERDEV-1804] Use postgre  testcontainer; fixed most of the failing test (#229)
+
+* [STERDEV-1786] Fixed bugs (#224)
+
+* [STERDEV-1786] Fixed bugs (#224)
+
+* [STERDEV-1753] Fix 3D Objects grid custom column data not saving (#219)
+
+* [STERDEV-1740] Fix measurement aggregation to prevent duplicates from non-Sterling params in TOI (#211)
+
+* fix/STERDEV-1557-2D-Measurements-Grid-Category-Column-not-saving-data (#210)
