@@ -35,6 +35,16 @@
 
 * [STERDEV-1236] Remove unnecessary content from user invitation mail (#69)
 
+[mcp]
+
+* [STERDEV-1818] Add library unit tools (#3)
+
+* [STERDEV-1819] Add library WBS tools (#4)
+
+* [STERDEV-1835] Add project drawing tools (#5)
+  
+* [STERDEV-1845] Add forecasting tools (#8)
+
 [takeoff]
 
 * [STERDEV-1797] Correct hangfire dashboard configuration & make it accessible to SYSTEM user role (#227)
