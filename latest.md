@@ -1,10 +1,91 @@
 
+[core]
+
+* [STERDEV-1803] on demand totals calculations (#561)
+
 [frontend]
 
-* [STERDEV-1869] Fix grouping logic and enrich payload with dynamic parameters from measurementMapStore (#1853)
+* [STERDEV-1803] on demand totals calculations (#1814)
+
+* [STERDEV-1806] feat: Enhance Formula Editor and Autocomplete Functionality (#1849)
+
+* [STERDEV-1860] Take-off - Documents page (#1847)
+
+* [STERDEV-1852] CostPlan grid shading changes (#1836)
+
+* [STERDEV-1806] feat: Enhance Formula Editor and Autocomplete Functionality (#1849)
+
+* [STERDEV-1860] Take-off - Documents page (#1847)
+
+* [STERDEV-1852] CostPlan grid shading changes (#1836)
+
+* [STERDEV-1813] Optimize performance by reducing payload size and memory usage in BIM elements processing (#1842)
+
+* [STERDEV-1303] - Update @sterling/takeoff-viewer to version 0.0.75 (#1830)
+
+* [STERDEV-1216] update @sterling/takeoff-viewer to version 0.0.73 (#1823)
+
+* [STERDEV-1244] CI library grid, level select and optimizations (#1821)
+
+* [STERDEV-1815] MCP-Server integration changes (#1819)
+
+* [STERDEV-1793] TO - Archive TOI process - show user where a TOI is assigned in Cost Plan (#1808)
+
+* [STERDEV-1470] Cost Item grid level shading (#1812)
+
+* [STERDEV-1690] custom emails api integration  (#1724)
+
+* [STERDEV-1273] 3 d objects parameters grid enhancements (#1807)
+
+* [STERDEV-1739] Right-align numeric quantity columns in 2D measurements grid and update tests for alignment logic (#1798)
+
+* [STERDEV-1569] feat: implement takeoff service tree component with tabs for model, types, and layers integration (#1802)
+
+* [STERDEV-1755] auto filter forecast resource view (#1793)
+
+
+
+## Bug Fixes 🛠
+
+* [STERDEV-1813][v2] Implement grouping for empty values as "Value not defined" and refactor value getters for improved consistency (#1874)
+
+* [STERDEV-1734] fix split modal regression (#1863)
+
+* [STERDEV-1827] Add context menu to CI structure assignment grid (#1852)
 
 * [STERDEV-1821] Fix Nested CI assigment failure on BP (#1824)
 
+* [STERDEV-1867] Toggle CI structure shading (#1854)
+
+* [STERDEV-1860] Take-off - Documents page -v2 (#1858)
+
+* [STERDEV-1869] Fix grouping logic and enrich payload with dynamic parameters from measurementMapStore (#1853)
+
+* [STERDEV-1827] Add context menu to CI structure assignment grid (#1852)
+
+* [STERDEV-1813] -  restore Sterling param auto-select on first load via measurementMapStore (#1843)
+
+* [STERDEV-1826] Rome assignment tree structure fix (#1828)
+
 * [STERDEV-1861] 2D TO - Unable to create TOI from grouped measurements (#1839)
 
-* [STERDEV-1734] fix split modal regression (#1863)
+* [STERDEV-1827] Adding toolbar options to CI assignment grid panel (#1833)
+
+* [STERDEV-1564] update @sterling/takeoff-viewer to version 0.0.74 (#1829)
+
+* [STERDEV-1752] remove unnecessary SM cost item grid columns (#1775)
+
+* [STERDEV-1788] disable adding child cost item nodes until new child is saved (#1806)
+
+* [STERDEV-1792] update @sterling/takeoff-viewer to version 0.0.72 (#1804)
+
+* [STERDEV-1544] fixed unassigned cost item selection menu issue  (#1801)
+
+* [STERDEV-1646] Fix for unable to remove UoM from structure node of cost items(#1799)
+
+
+[takeoff]
+
+* [STERDEV-1882] Define & set hangfire job priorities (#245)
+
+* [STERDEV-1813]  implement batch loading for model settings and add Gzip compression for /bim-elements endpoint (#239)
