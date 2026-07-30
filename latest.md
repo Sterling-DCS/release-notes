@@ -1,6 +1,8 @@
 
 [core]
 
+## New Features 🎉
+
 * [STERDEV-1244] CI Library Add CI, Assign Structures and removed unused caching references (#582)
 
 * [STERDEV-1803] on demand totals calculations (#561)
@@ -22,6 +24,8 @@
 * [STERDEV-1879]  Fixed takeoff references (#576)
 
 [frontend]
+
+## New Features 🎉
 
 * [STERDEV-1947] Align 2D formula suggestions with headers (#1972)
 
@@ -95,6 +99,8 @@
 
 [frontend-api]
 
+## New Features 🎉
+
 * [STERDEV-1789] properly unassign by programmeId & batch unassign on update (#144)
 
 * [STERDEV-1716] Migrate to postgredb (#141)
@@ -107,6 +113,8 @@
 
 
 [takeoff]
+
+## New Features 🎉
 
 * [STERDEV-1868] feat: add ElementIds to Takeoff models and implement SubClaimTransformation (#253)
 
