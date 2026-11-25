@@ -1,6 +1,8 @@
 
 [core]
 
+## New Features 🎉
+
 * [STERDEV-2135] Core: Implement DHTMLX client, background jobs and SignalR hub for Gantt streaming (#633)
 
 * [STERDEV-2129] Assemblies grouping (#630)
@@ -8,8 +10,6 @@
 * [STERDEV-2044] Feature - Assemblies entities, models and endpoints (#622)
 
 * [STERDEV-2116] "Subcontractor" role to have access to all projects in their portfolio (#619)
-
-
 
 ## Bug Fixes 🛠
 
@@ -22,6 +22,8 @@
 * [STERDEV-2109] handle System.NullReferenceException: Object reference… (#615)
 
 [frontend]
+
+## New Features 🎉
 
 * [STERDEV-2226] Added menu option to 'Swap Portfolio' (#2241)
 
@@ -44,8 +46,6 @@
 * [STERDEV-2075] Rule Lifecycle Actions (#2156)
 
 * [STERDEV-2117] Revisioning - Cost & Carbon summary tab - Quantity roll-ups not required (#2150)
-
-
 
 ## Bug Fixes 🛠
 
@@ -76,12 +76,13 @@
 * [STERDEV-2096] Setting the row before we start editing them (#2144)
 
 * [STERDEV-2103] Cost Plan - Add Resources button not visible until scrolled to right (#2141)
+  
 
 [frontend-api]
 
+## New Features 🎉
+
 * [STERDEV-2135] Frontend-API: Implement internal bulk import and increase payload limits (#184)
-
-
 
 ## Bug Fixes 🛠
 
@@ -90,8 +91,11 @@
 * [STERDEV-2151] Resolve node ids tolerantly and stop move() losing siblings (#186)
 
 * [STERDEV-1767] reject programme updates if not editable (#181)
+  
 
 [identity]
+
+## New Features 🎉
 
 * [STERDEV-2226] Roles fallback (#185)
 
@@ -99,21 +103,20 @@
 
 * [STERDEV-2102] Users can be created without password (SSO only); No reset or registration for such users (#169)
 
-
-
 ## Bug Fixes 🛠
 
 * [STERDEV-2150] Setting explicit role for subcontractors (#175)
 
 * [STERDEV-2116] "subcontractor" role assigned to new subcontractors (#171)
+  
 
 [mailing]
+
+## New Features 🎉
 
 * [STERDEV-1690] Email template handling changes (#68)
 
 * [STERDEV-1525] GETendpoints for default email templates (Unblocks FE) (#50)
-
-
 
 ## Bug Fixes 🛠
 
@@ -124,12 +127,13 @@
 * [STERDEV-1236] Remove unnecessary content from user invitation mail (#69)
 
 * [STERDEV-1530] fic mailing env vars (#53)
+  
 
 [proxy]
 
+## New Features 🎉
+
 * [STERDEV-2226]  New 'reauth' endpoint so refresh proxy cached token (#44)
-
-
 
 ## Bug Fixes 🛠
 
@@ -138,5 +142,7 @@
 * [STERDEV-2226] Proxy revert #1 (#46)
 
 [takeoff]
+
+## New Features 🎉
 
 * [STERDEV-2264] Set file name after .DWG conversion (#306)
