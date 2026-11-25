@@ -1,103 +1,142 @@
 
 [core]
 
-* [STERDEV-1244] Keeping prefab tables in sync with new ones and core devcontainer (#600)
+* [STERDEV-2135] Core: Implement DHTMLX client, background jobs and SignalR hub for Gantt streaming (#633)
 
-* [STERDEV-1962] User project assignments (#595)
+* [STERDEV-2129] Assemblies grouping (#630)
 
-* [STERDEV-1244] Keeping prefab tables in sync with new ones and core devcontainer (#600)
+* [STERDEV-2044] Feature - Assemblies entities, models and endpoints (#622)
 
-* [STERDEV-1962] User project assignments (#595)
-
-* [STERDEV-1915] Fix typo in function name for library resources (#591)
-
-* [STERDEV-1915] CI library resource assignment (#589)
+* [STERDEV-2116] "Subcontractor" role to have access to all projects in their portfolio (#619)
 
 
 
 ## Bug Fixes 🛠
 
-* [STERDEV-2028] configure BulkEditAggregatedResources pubsub for EPD (#611)
+* [STERDEV-1244] Populate paths in library imports (#666)
 
-* [STERDEV-2028] enable epd sync for rmv2 (#607)
+* [STERDEV-2238] Saving CI Libraries; fix tag family name mapping (#653)
 
-* [STERDEV-2028] Updated backend BulkEditAggregatedResources command and handler to support external_id and integration_id patches. (#606)
+* Stop revisions from silently ignoring deleted activities (#634)
 
-* [STERDEV-2087] Fixing user-project auth when HTTP context isn't available (#603)
+* [STERDEV-2109] handle System.NullReferenceException: Object reference… (#615)
 
-* [STERDEV-2026] If currency is empty string or null default it (#601)
+[frontend]
 
-* [STERDEV-1962] Users are invited by default to the projects they create (#598)
+* [STERDEV-2226] Added menu option to 'Swap Portfolio' (#2241)
 
-* [STERDEV-2087] Fixing user-project auth when HTTP context isn't available (#603)
+* [STERDEV-2185] Update MUI components to v9 (#2206)
 
-* [STERDEV-2026] If currency is empty string or null default it (#601)
+* [STERDEV-2160] Update takeoff-viewer to version 0.0.88 and implement measurement label formatting improvements (#2200)
 
-* [STERDEV-1962] Users are invited by default to the projects they create (#598)
+* [STERDEV-2161] feat(frontend): unit-conversion marker in Rule Manager and feature flag for the Classify button (#2195)
+
+* [STERDEV-2135] Implement high-capacity Gantt streaming and background processing (#2190)
+
+* [STERDEV-1977] feat(take-off): Rule-Driven ToQ and Model Object Classifier workspace (#2185)
+
+* [STERDEV-2129] Assemblies groups (#2181)
+
+* [STERDEV-1976] feat(frontend): Object Grid Classification status/Derived Parameters columns (#2164)
+
+* [STERDEV-2044] Assembly UI changes (#2155)
+
+* [STERDEV-2075] Rule Lifecycle Actions (#2156)
+
+* [STERDEV-2117] Revisioning - Cost & Carbon summary tab - Quantity roll-ups not required (#2150)
+
+
+
+## Bug Fixes 🛠
+
+* [STERDEV-2160] Bump @sterling/takeoff-viewer to version 0.0.89 (#2213)
+
+* [STERDEV-2176] Scope node cost-item data to the programme and stop the BOQ erasing assignments (#2211)
+
+* [STERDEV-2044] Assemblies feature flag fix (#2204)
+
+* [STERDEV-2177] Fix collapsed Left Hand nav not working in Safari (#2202)
+
+* [STERDEV-2174] Restore the deletion warning on the streaming revision comparison (#2197)
+
+* [STERDEV-2151] unassign ci from activity (#2196)
+
+* [STERDEV-1950] Lifecycle workbook manual items persistence fix (#2193)
+
+* [STERDEV-2147] Show all portfolio projects to non subcontractor user (#2165)
+
+* [STERDEV-2044] React query in CI library, const cache keys and better ux (#2157)
+
+* [STERDEV-1767] hide and disable editing interface if not editable (#2154)
+
+* [STERDEV-2099] handle missing end dates to fix No Rows display (#2149)
+
+* [STERDEV-2109] handle System.NullReferenceException: Object reference… (#2134)
+
+* [STERDEV-2096] Setting the row before we start editing them (#2144)
+
+* [STERDEV-2103] Cost Plan - Add Resources button not visible until scrolled to right (#2141)
 
 [frontend-api]
 
-* [STERDEV-1767] backend changes to support editing of uploaded programmes (#177)
-
-* [STERDEV-1765] handle b&c`s when uploading (#162)
-
-* [STERDEV-1765] support baselines and constraints (#158)
-
-* [STERDEV-1761] handling forecasting updates such as working week (#152)
-
-* [STERDEV-1768] add updatedBy and createdBy threading to persistence (#147)
-
-* [STERDEV-1760] persist wbs codes (#146)
+* [STERDEV-2135] Frontend-API: Implement internal bulk import and increase payload limits (#184)
 
 
 
 ## Bug Fixes 🛠
 
-* [STERDEV-1768] handle passing and persisting user modding data for (#176)
+* Unassign cost items for activities removed by a revision (#185)
 
-* [STERDEV-1950] Corrected renewal, eodline, maintenanceR, maintenanceP and operationRows (#156)
+* [STERDEV-2151] Resolve node ids tolerantly and stop move() losing siblings (#186)
 
-* [STERDEV-1942] Lifecycle assessment period fix (#154)
-
-* [STERDEV-2007] support working datetime update (#169)
-
-* [STERDEV-2007] use float for duration to support fractional durations (#167)
-
-* [STERDEV-1989] restore setting and displaying "master" status for default programme in programmes list (#161)
-
-* [STERDEV-1950] Corrected renewal, eodline, maintenanceR, maintenanceP and operationRows (#156)
-
-* [STERDEV-1942] Lifecycle assessment period fix (#154)
+* [STERDEV-1767] reject programme updates if not editable (#181)
 
 [identity]
 
-* [STERDEV-2030] Users grid and actions (#164)
+* [STERDEV-2226] Roles fallback (#185)
 
-* [STERDEV-2030] Portfolio, User management and identity devcontainer (#162)
+* [STERDEV-2217] Sorted portfolio names asc (#184)
 
-* [STERDEV-1962] User project assignments (#157)
-
-* [STERDEV-1855] Restrict sign-in to active portfolios only (#152)
+* [STERDEV-2102] Users can be created without password (SSO only); No reset or registration for such users (#169)
 
 
 
 ## Bug Fixes 🛠
 
-* [STERDEV-2087] Fixing user-project auth when HTTP context isn't available (#166)
+* [STERDEV-2150] Setting explicit role for subcontractors (#175)
 
-* [STERDEV-1962]  Created SterlingRole at user level for system role users and fixes (#160)
+* [STERDEV-2116] "subcontractor" role assigned to new subcontractors (#171)
 
-* [STERDEV-1908] Fix SQL query to join PortfolioId correctly (#149)
+[mailing]
 
+* [STERDEV-1690] Email template handling changes (#68)
 
-[integration]
-
-* [STERDEV-1598] Enforce takeoff structure existence before document upload (#90)
-
-* Merge pull request #86 from Sterling-DCS/feature/STERDEV-1304-Improve-Take-off-Document-loading-UI
-
-[report]
-
-* [STERDEV-1548] Fix for identity service change to GetUsersByPortfolioId endpoint (#101)
+* [STERDEV-1525] GETendpoints for default email templates (Unblocks FE) (#50)
 
 
+
+## Bug Fixes 🛠
+
+* [STERDEV-1690] Fixing issues (#75)
+
+* [STERDEV-1690] fix .net version (#73)
+
+* [STERDEV-1236] Remove unnecessary content from user invitation mail (#69)
+
+* [STERDEV-1530] fic mailing env vars (#53)
+
+[proxy]
+
+* [STERDEV-2226]  New 'reauth' endpoint so refresh proxy cached token (#44)
+
+
+
+## Bug Fixes 🛠
+
+* [STERDEV-2226] Added '/reauth' endpoint for portfolio swap; build fixes with .NET6 (#48)
+
+* [STERDEV-2226] Proxy revert #1 (#46)
+
+[takeoff]
+
+* [STERDEV-2264] Set file name after .DWG conversion (#306)
